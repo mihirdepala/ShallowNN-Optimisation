@@ -10,16 +10,16 @@ In addition to accuracy, the project evaluates models based on computational cos
 
 ---
 
-## 📁 Files
+## Files
 
 | Filename                          | Description |
 |----------------------------------|-------------|
 | `Grid search.ipynb`              | Explores combinations of network parameters using a structured grid approach. |
 | `Random Search.ipynb`            | Randomly samples hyperparameter configurations for comparison. |
-| `Bayesian Optimisation.ipynb` | Implements Bayesian optimisation using Optuna; collects model metrics like accuracy, precision, recall, F1-score, FLOPs, and parameter count. |
+| `Bayesian Optimisation.ipynb` | Implements Bayesian optimisation using Optuna |
 
 
-## 📊 Results Files
+## Results Files
 
 | File                              | Description |
 |----------------------------------|-------------|
@@ -29,7 +29,7 @@ In addition to accuracy, the project evaluates models based on computational cos
 
 ---
 
-## 🧪 Techniques
+## Techniques
 
 Each approach optimises:
 - Number of layers
@@ -41,7 +41,7 @@ Evaluation is performed on the **MNIST** dataset (grayscale handwritten digits).
 
 ---
 
-## 📊 Metrics Collected
+## Metrics Collected
 
 - **Accuracy**
 - **Precision / Recall / F1-score**
@@ -53,7 +53,7 @@ These metrics help assess the trade-off between **accuracy** and **efficiency**.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 To run the notebooks, you’ll need:
 
