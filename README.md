@@ -17,7 +17,15 @@ In addition to accuracy, the project evaluates models based on computational cos
 | `Grid search.ipynb`              | Explores combinations of network parameters using a structured grid approach. |
 | `Random Search.ipynb`            | Randomly samples hyperparameter configurations for comparison. |
 | `Bayesian Optimisation.ipynb` | Implements Bayesian optimisation using Optuna; collects model metrics like accuracy, precision, recall, F1-score, FLOPs, and parameter count. |
-| `optimisation_results_with_metrics.xlsx` | Spreadsheet of results for each trial, including performance and model size. |
+
+
+## 📊 Results Files
+
+| File                              | Description |
+|----------------------------------|-------------|
+| `grid_search_results.xlsx`       | Accuracy and architecture details from grid search trials. |
+| `random_search_results.xlsx`     | Performance of randomly selected network configurations. |
+| `Bayesian Optimisation results.xlsx` | Best configurations and metrics from Optuna-based Bayesian search. |
 
 ---
 
